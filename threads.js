@@ -1,3 +1,4 @@
+process.env.UV_THREADPOOL_SIZE = 2; // change the thread pool size to 2
 const crypto = require('crypto');
 
 /**
